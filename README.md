@@ -1,15 +1,15 @@
-<theme name> <version>
+Candlelight 0.0.0
 =====
-Child theme of Flint. <description>
+Child theme of Flint. Theme with scrolling first page and fixed navigation bar.
 
 ```
-<theme name> is a child theme of Flint http://sparks.starverte.com/flint
+Candlelight is a child theme of Flint http://sparks.starverte.com/flint
 (C) 2013-2014 Star Verte LLC
 Licensed under the GNU General Public License v3.0, http://www.gnu.org/licenses/gpl.html
 ```
 
 ```
-<theme name> Copyright <year> <company> (email : <email address>)
+Candlelight Copyright 2014 Star Verte LLC (email : <email address>)
 
 This program is free software: you can redistribute it and/or modify
 it under the terms of the GNU General Public License as published by
