@@ -30,6 +30,29 @@ Template: flint
 /* =Global
 ----------------------------------------------- */
 
+.fa-7x {
+  font-size: 7em;
+}
+.fa-10x {
+  font-size: 10em;
+}
+.txt-center {
+  text-align: center;
+}
+.infograph h1,
+.infograph h2,
+.infograph h3 {
+  font-size: 1.25em;
+  line-height: 1.5em;
+}
+.infograph .spacer {
+  min-height: 100px;
+  clear: both;
+}
+.max-215 {
+  max-width: 215px;
+}
+
 
 /* =Colors
 ----------------------------------------------- */
@@ -174,96 +197,88 @@ fieldset[disabled] .btn-orange.active {
   font-size: 2em;
   color: #fff;
   text-align: right;
+  background-repeat: none;
+  background-size: cover;
 }
-#intro {
-  min-height: 285px;
-  padding-top: 2.5em;
+.hero .text {
+  display: inline-block;
+  line-height: normal;
+  vertical-align: middle;
+}
+#intro .hero {
+  height: 285px;
   color: #fe6d26;
   text-align: left;
   background-image: url(img/hero-sm.png);
   background-position-x: right;
 }
+#problem .hero {
+  height: 285px;
+  background-image: url(img/problem-sm.png);
+}
+#what-we-do .hero {
+  height: 435px;
+  color: #fe6d26;
+  background-image: url(img/solution-xs.png);
+  background-position-x: right;
+}
+#what-we-do .hero h1 {
+  color: #fe6d26;
+}
 @media (min-width: 768px) {
-  #intro {
-    min-height: 342px;
+  #intro .hero {
+    height: 342px;
     font-size: 18px;
     background-image: url(img/hero-md.png);
   }
-}
-@media (min-width: 992px) {
-  #intro {
-    min-height: 442px;
-    font-size: 36px;
-    background-image: url(img/hero-lg.png);
-  }
-}
-@media (min-width: 1200px) {
-  #intro {
-    min-height: 570px;
-    font-size: 48px;
-  }
-}
-#problem {
-  min-height: 285px;
-  background-image: url(img/problem-xs.png);
-  background-position-x: left;
-}
-@media (min-width: 768px) {
-  #problem {
-    min-height: 360px;
-    padding-top: 8em;
+  #problem .hero {
+    height: 360px;
     font-size: 18px;
-    background-image: url(img/problem-sm.png);
-  }
-}
-@media (min-width: 992px) {
-  #problem {
-    min-height: 630px;
-    padding-top: 7em;
-    font-size: 36px;
+    line-height: 360px;
     background-image: url(img/problem-md.png);
   }
-}
-@media (min-width: 1200px) {
-  #problem {
-    min-height: 630px;
-    padding-top: 4em;
-    font-size: 48px;
-    background-image: url(img/problem-lg.png);
-  }
-}
-#what-we-do {
-  min-height: 730px;
-  color: #000;
-  text-align: left;
-  background-image: url(img/solution-xs.png);
-  background-position-x: center;
-}
-#what-we-do h1 {
-  color: #000;
-  text-align: left;
-}
-@media (min-width: 768px) {
-  #what-we-do {
-    min-height: 1223px;
-    padding-top: 31em;
-    font-size: 32px;
+  #what-we-do .hero {
+    height: 342px;
+    font-size: 18px;
     background-image: url(img/solution-sm.png);
   }
 }
 @media (min-width: 992px) {
-  #what-we-do {
-    min-height: 1480px;
-    padding-top: 34em;
+  #intro .hero {
+    height: 442px;
     font-size: 36px;
+    line-height: 442px;
+    background-image: url(img/hero-lg.png);
+  }
+  #problem .hero {
+    height: 630px;
+    font-size: 36px;
+    line-height: 630px;
+    background-image: url(img/problem-lg.png);
+  }
+  #what-we-do .hero {
+    height: 442px;
+    font-size: 36px;
+    line-height: 442px;
     background-image: url(img/solution-md.png);
   }
 }
 @media (min-width: 1200px) {
-  #what-we-do {
-    min-height: 1579px;
-    padding-top: 26em;
+  #intro .hero {
+    height: 570px;
     font-size: 48px;
+    line-height: 570px;
+  }
+  #problem .hero {
+    height: 630px;
+    font-size: 48px;
+    line-height: 630px;
+    background-image: url(img/problem-lg.png);
+  }
+  #what-we-do .hero {
+    height: 570px;
+    font-size: 48px;
+    line-height: 570px;
     background-image: url(img/solution-lg.png);
   }
 }
