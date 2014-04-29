@@ -52,6 +52,13 @@ Template: flint
 .max-215 {
   max-width: 215px;
 }
+section:focus {
+  outline: none;
+}
+.tooltip {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif!important;
+  text-transform: none;
+}
 
 
 /* =Colors
@@ -139,6 +146,47 @@ fieldset[disabled] .btn-orange.active {
   color: #ff884d;
   background-color: #fff;
 }
+.btn-outline-inverse {
+  color: #fff;
+  background-color: transparent;
+  border-color: #fff;
+}
+.btn-outline-inverse:hover,
+.btn-outline-inverse:focus,
+.btn-outline-inverse:active,
+.btn-outline-inverse.active,
+.open .dropdown-toggle.btn-outline-inverse {
+  color: #fe6d26;
+  background-color: #fff;
+  border-color: #fff;
+}
+.btn-outline-inverse:active,
+.btn-outline-inverse.active,
+.open .dropdown-toggle.btn-outline-inverse {
+  background-image: none;
+}
+.btn-outline-inverse.disabled,
+.btn-outline-inverse[disabled],
+fieldset[disabled] .btn-outline-inverse,
+.btn-outline-inverse.disabled:hover,
+.btn-outline-inverse[disabled]:hover,
+fieldset[disabled] .btn-outline-inverse:hover,
+.btn-outline-inverse.disabled:focus,
+.btn-outline-inverse[disabled]:focus,
+fieldset[disabled] .btn-outline-inverse:focus,
+.btn-outline-inverse.disabled:active,
+.btn-outline-inverse[disabled]:active,
+fieldset[disabled] .btn-outline-inverse:active,
+.btn-outline-inverse.disabled.active,
+.btn-outline-inverse[disabled].active,
+fieldset[disabled] .btn-outline-inverse.active {
+  background-color: transparent;
+  border-color: #fff;
+}
+.btn-outline-inverse .badge {
+  color: #fe6d26;
+  background-color: #fff;
+}
 .canvas-white,
 .canvas-orange,
 .canvas-green,
@@ -187,8 +235,12 @@ fieldset[disabled] .btn-orange.active {
 ----------------------------------------------- */
 
 .page-title {
+  margin-bottom: 1em;
   color: #fff;
   background: #fe6d26;
+}
+.page .page-title {
+  margin-bottom: 0;
 }
 .page-title h1 {
   padding-top: 20px;
@@ -199,6 +251,16 @@ fieldset[disabled] .btn-orange.active {
 }
 .btn-edit {
   margin-top: -4.8em;
+}
+.tax-steel_team.term-elders #content:nth-child(4n):after {
+  display: table;
+  clear:both;
+  content: " ";
+}
+.tax-steel_team.term-elders #content:nth-child(4n+1):before {
+  display: table;
+  clear:both;
+  content: " ";
 }
 
 /* =Front Page
