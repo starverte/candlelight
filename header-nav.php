@@ -26,8 +26,15 @@
       
       <!-- Collect the nav links, forms, and other content for toggling -->
       <div class="collapse navbar-collapse navbar-primary">
-        <?php wp_nav_menu( array( 'theme_location' => 'primary', 'container' => false, 'menu_class' => 'nav navbar-nav', 'fallback_cb' => false, 'walker' => new Flint_Bootstrap_Menu ) ); ?>
-        <div class="navbar-right"><a class="btn btn-red navbar-btn" href="#">Donate</a></div>
+        <?php
+        if (is_front_page()) {
+          wp_nav_menu( array( 'theme_location' => 'front-page', 'container' => false, 'menu_class' => 'nav navbar-nav', 'fallback_cb' => false, 'walker' => new Flint_Bootstrap_Menu ) );
+        }
+        else {
+          wp_nav_menu( array( 'theme_location' => 'primary', 'container' => false, 'menu_class' => 'nav navbar-nav', 'fallback_cb' => false, 'walker' => new Flint_Bootstrap_Menu ) );
+        }
+        ?>
+        <div class="navbar-right"><a class="btn btn-red navbar-btn steel-tooltip" href="https://www.worldventure.com/page.aspx?pid=984&fid=65135&fdesc=Vuyiroli%20Home%20for%20the%20Elderly%20Destitute-6473913" data-toggle="tooltip" data-placement="bottom" title="Donations are handled by WorldVenture" target="_blank">Donate</a></div>
       </div><!-- .navbar-collapse -->
     </div><!-- .container -->
   </nav><!-- .navbar -->
