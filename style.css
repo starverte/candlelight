@@ -186,6 +186,20 @@ fieldset[disabled] .btn-orange.active {
 /* =Content
 ----------------------------------------------- */
 
+.page-title {
+  color: #fff;
+  background: #fe6d26;
+}
+.page-title h1 {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  margin: 0;
+  font-size: 4em;
+  text-transform: lowercase;
+}
+.btn-edit {
+  margin-top: -4.8em;
+}
 
 /* =Front Page
 ----------------------------------------------- */
@@ -293,6 +307,7 @@ fieldset[disabled] .btn-orange.active {
 
 .navbar-cl {
   font-family: "Nova Square";
+  text-transform: lowercase;
   background-color: #fff;
   border-color: #ff884d;
 }
