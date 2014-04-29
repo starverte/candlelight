@@ -14,6 +14,12 @@ function cl_enqueue_scripts() {
    */
   wp_enqueue_style( 'font-awesome', get_stylesheet_directory_uri() . '/css/font-awesome.min.css', array() , '4.0.3' );
 
+  register_nav_menus( array(
+    'front-page' => __( 'Primary Menu (Home)', 'flint' ),
+  ) );
+  
+  add_image_size( 'cl-profile', 750, 750, true);
+
 }
 add_action( 'wp_enqueue_scripts', 'cl_enqueue_scripts', 20 );
 
@@ -30,4 +36,6 @@ function cl_save_teams_meta() {
   if (isset($_POST['profile_home'])) { update_post_meta($post->ID, "profile_home", $_POST["profile_home"]); }
   if (isset($_POST['profile_ailments'])) { update_post_meta($post->ID, "profile_ailments", $_POST["profile_ailments"]); }
 }
+
+
 ?>

@@ -15,11 +15,11 @@ function cl_profile_entry_meta_above() {
   
   $output  = '';
   $output .= !empty($lang) | !empty($home) | !empty($ailments) ? '<p>' : '';
-  $output .= !empty($lang) ? '<i class="glyphicon glyphicon-globe"></i> ' . $lang : '';
+  $output .= !empty($lang) ? '<i class="fa fa-comments"></i> ' . $lang : '';
   $output .= !empty($lang) && !empty($home) ? '<br>' : '';
-  $output .= !empty($home) ? '<i class="glyphicon glyphicon-home"></i> ' . $home : '';
+  $output .= !empty($home) ? '<i class="fa fa-globe"></i> ' . $home : '';
   $output .= !empty($home) && !empty($ailments) ? '<br>' : '';
-  $output .= !empty($ailments) ? '<i class="glyphicon glyphicon-heart"></i> ' . $ailments : '';
+  $output .= !empty($ailments) ? '<i class="fa fa-wheelchair"></i> ' . $ailments : '';
   $output .= !empty($lang) | !empty($home) | !empty($ailments) ? '</p>' : '';
   echo $output;
 }
