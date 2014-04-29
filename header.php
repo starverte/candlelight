@@ -8,4 +8,6 @@
  * @since 0.0.0
  */
 get_header( 'head' );
-get_header( 'nav' ); ?>
+get_header( 'nav' );
+
+if (is_page()) { get_header( 'branding' ); } ?>
