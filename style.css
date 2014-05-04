@@ -6,11 +6,11 @@ Description: Child theme of Flint. Child theme of Flint. Theme with scrolling fi
 Version: 0.0.0
 License: GPLv3
 License URI: LICENSE.md
-Tags: 
+Tags:
 Template: flint
 
     Copyright 2014 Star Verte LLC  (email : dev@starverte.com)
-    
+
     This program is free software: you can redistribute it and/or modify
     it under the terms of the GNU General Public License as published by
     the Free Software Foundation, either version 3 of the License, or
@@ -262,6 +262,9 @@ fieldset[disabled] .btn-outline-inverse.active {
   clear:both;
   content: " ";
 }
+.blog .entry-meta {
+  display: none;
+}
 
 /* =Front Page
 ----------------------------------------------- */
@@ -287,6 +290,17 @@ fieldset[disabled] .btn-outline-inverse.active {
   text-align: left;
   background-image: url(img/hero-sm.png);
   background-position-x: right;
+}
+.learn-more {
+  margin-top: -2em;
+  line-height: normal;
+}
+.learn-more a {
+  color: #e2360a;
+}
+.learn-more a:hover {
+  color: #fe6d26;
+  text-decoration: none;
 }
 #problem .hero {
   height: 285px;
@@ -474,3 +488,11 @@ fieldset[disabled] .btn-outline-inverse.active {
 
 /* =Footer
 ----------------------------------------------- */
+
+@media (max-width: 767px) {
+  #custom-footer,
+  #credits {
+    margin-bottom: 1em;
+    text-align: center!important;
+  }
+}
