@@ -12,7 +12,7 @@ function cl_profile_entry_meta_above() {
   $lang     = steel_profile_meta( 'lang'    );
   $home     = steel_profile_meta( 'home'    );
   $ailments = steel_profile_meta( 'ailments');
-  
+
   $output  = '';
   $output .= !empty($lang) | !empty($home) | !empty($ailments) ? '<p>' : '';
   $output .= !empty($lang) ? '<i class="fa fa-comments"></i> ' . $lang : '';

@@ -14,7 +14,7 @@ $type = get_post_type(); ?>
       <?php if (is_singular()) { flint_post_thumbnail('page'); } else { flint_post_thumbnail( 'page', 'archive' ); } ?>
     </div>
     <article id="post-<?php the_ID(); ?>" <?php post_class('col-lg-4 col-md-4 col-sm-4'); ?>>
-      
+
       <?php if ( is_search() ) : ?>
       <div class="entry-summary">
         <?php the_excerpt(); ?>
@@ -29,7 +29,7 @@ $type = get_post_type(); ?>
         ) ); ?>
       </div><!-- .entry-content -->
       <?php endif; ?>
-      
+
     </article><!-- #page-<?php the_ID(); ?> -->
     <div class="col-lg-4 col-md-4 col-sm-4"></div>
   </div><!-- .row -->

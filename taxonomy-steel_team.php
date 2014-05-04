@@ -9,13 +9,13 @@
 get_header(); ?>
 
   <div class="page-title">
-  
+
       <div class="container">
-      
+
         <h1><?php printf( __( '%s', 'flint' ), '<span>' . single_term_title( '', false ) . '</span>' ); ?></h1>
-        
+
       </div><!-- .container -->
-      
+
   </div><!-- .page-title -->
 
   <section id="primary" class="content-area container">

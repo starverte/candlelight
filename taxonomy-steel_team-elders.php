@@ -9,18 +9,18 @@
 get_header(); ?>
 
   <div class="page-title">
-  
+
       <div class="container">
-      
+
         <h1><?php printf( __( '%s', 'flint' ), '<span>' . 'Who We Serve' . '</span>' ); ?></h1>
-        
+
       </div><!-- .container -->
-      
+
   </div><!-- .page-title -->
 
   <section id="primary" class="content-area container">
     <div id="content" class="site-content" role="main">
-    
+
     <div class="row">
     <?php $i = 1;
           global $query_string;
@@ -44,9 +44,9 @@ get_header(); ?>
       <?php get_template_part( 'no-results', 'archive' ); ?>
 
     <?php endif; ?>
-    
+
     </div>
-    
+
     </div><!-- #content -->
   </section><!-- #primary -->
 

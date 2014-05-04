@@ -10,7 +10,7 @@ $type = get_post_type(); ?>
 
   <div class="row">
     <article id="post-<?php the_ID(); ?>" <?php post_class('col-lg-12 col-md-12 col-sm-12'); ?>>
-      
+
       <?php if ( is_search() ) : ?>
       <div class="entry-summary">
         <?php the_excerpt(); ?>
@@ -26,5 +26,5 @@ $type = get_post_type(); ?>
       </div><!-- .entry-content -->
       <?php endif; ?>
     </article><!-- #page-<?php the_ID(); ?> -->
-    
+
   </div><!-- .row -->

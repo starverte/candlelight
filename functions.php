@@ -6,9 +6,9 @@
  */
 
 function cl_enqueue_scripts() {
-  
+
   require( get_stylesheet_directory() . '/inc/template-tags.php' );
-  
+
   /**
    * Load Font Awesome
    */
@@ -17,7 +17,7 @@ function cl_enqueue_scripts() {
   register_nav_menus( array(
     'front-page' => __( 'Primary Menu (Home)', 'flint' ),
   ) );
-  
+
   add_image_size( 'cl-profile', 750, 750, true);
 
 }
