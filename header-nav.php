@@ -23,7 +23,7 @@
         </button>
         <a class="navbar-brand" href="<?php echo esc_url( home_url() ); ?>"><?php echo esc_attr( get_bloginfo( 'name', 'display' ) ); ?></a>
       </div><!-- .navbar-header -->
-      
+
       <!-- Collect the nav links, forms, and other content for toggling -->
       <div class="collapse navbar-collapse navbar-primary">
         <?php
@@ -34,7 +34,11 @@
           wp_nav_menu( array( 'theme_location' => 'primary', 'container' => false, 'menu_class' => 'nav navbar-nav', 'fallback_cb' => false, 'walker' => new Flint_Bootstrap_Menu ) );
         }
         ?>
-        <div class="navbar-right"><a class="btn btn-red navbar-btn steel-tooltip" href="https://www.worldventure.com/page.aspx?pid=984&fid=65135&fdesc=Vuyiroli%20Home%20for%20the%20Elderly%20Destitute-6473913" data-toggle="tooltip" data-placement="bottom" title="Donations are handled by WorldVenture" target="_blank">Donate</a></div>
+        <div class="navbar-right">
+          <a class="btn btn-red navbar-btn hidden-sm hidden-xs" href="https://www.worldventure.com/page.aspx?pid=984&fid=65135&fdesc=Vuyiroli%20Home%20for%20the%20Elderly%20Destitute-6473913" data-toggle="tooltip" data-placement="bottom" title="Donations are handled by WorldVenture" target="_blank">Donate</a>
+          <a class="btn btn-red btn-block navbar-btn visible-sm visible-xs" href="https://www.worldventure.com/page.aspx?pid=984&fid=65135&fdesc=Vuyiroli%20Home%20for%20the%20Elderly%20Destitute-6473913" target="_blank">Donate</a>
+          <p class="text-muted visible-sm visible-xs" style="text-align:center;font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; text-transform:none;">Donations are processed by WorldVenture</p>
+        </div>
       </div><!-- .navbar-collapse -->
     </div><!-- .container -->
   </nav><!-- .navbar -->
