@@ -42,3 +42,11 @@
       </div><!-- .navbar-collapse -->
     </div><!-- .container -->
   </nav><!-- .navbar -->
+
+<?php if (is_front_page()) { ?>
+  <nav class="arrdown">
+    <div class="container">
+      <i class="fa fa-chevron-down"></i>
+    </div><!-- .container -->
+  </nav><!-- .navbar -->
+<?php } ?>
