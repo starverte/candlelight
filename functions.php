@@ -5,6 +5,20 @@
  * @package Flint/Candlelight
  */
 
+/**
+ * Sets up theme defaults and registers support for various WordPress features.
+ */
+function cl_after_setup_theme() {
+
+  register_nav_menus( array(
+    'front-page' => __( 'Primary Menu (Home)', 'flint' ),
+  ) );
+
+  add_image_size( 'cl-profile', 750, 750, true);
+
+}
+add_action( 'after_setup_theme', 'cl_after_setup_theme', 20 );
+
 function cl_enqueue_scripts() {
 
   require( get_stylesheet_directory() . '/inc/template-tags.php' );
@@ -13,12 +27,6 @@ function cl_enqueue_scripts() {
    * Load Font Awesome
    */
   wp_enqueue_style( 'font-awesome', get_stylesheet_directory_uri() . '/css/font-awesome.min.css', array() , '4.0.3' );
-
-  register_nav_menus( array(
-    'front-page' => __( 'Primary Menu (Home)', 'flint' ),
-  ) );
-
-  add_image_size( 'cl-profile', 750, 750, true);
 
 }
 add_action( 'wp_enqueue_scripts', 'cl_enqueue_scripts', 20 );
@@ -36,6 +44,5 @@ function cl_save_teams_meta() {
   if (isset($_POST['profile_home'])) { update_post_meta($post->ID, "profile_home", $_POST["profile_home"]); }
   if (isset($_POST['profile_ailments'])) { update_post_meta($post->ID, "profile_ailments", $_POST["profile_ailments"]); }
 }
-
 
 ?>
