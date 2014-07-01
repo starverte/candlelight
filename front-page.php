@@ -34,7 +34,7 @@ get_header(); ?>
 
     </div><!-- #intro .hero -->
 
-    <div class="canvas-white container visible-sm visible-xs">
+    <div class="canvas-white container visible-sm-block visible-xs-block">
 
         <div class="col-sm-12 col-xs-12">
           <p>Vuyiroli is a non-profit<wbr>
@@ -75,7 +75,7 @@ get_header(); ?>
 
     </div><!-- .hero -->
 
-    <div class="canvas-white container visible-sm visible-xs text-red">
+    <div class="canvas-white container visible-sm-block visible-xs-block text-red">
 
         <div class="col-sm-12 col-xs-12">
 
@@ -173,7 +173,7 @@ get_header(); ?>
 
           <div class="col-lg-2 col-md-2 col-sm-2"></div>
 
-          <div class="visible-xs spacer"></div>
+          <div class="visible-xs-block spacer"></div>
 
           <div class="col-lg-3 col-md-4 col-sm-5 col-xs-12 txt-center">
             <img class="max-215" src="<?php echo get_stylesheet_directory_uri(); ?>/img/nuclear-family.png" />
@@ -253,7 +253,7 @@ get_header(); ?>
 
     </div><!-- .hero -->
 
-    <div class="canvas-white container visible-sm visible-xs text-green">
+    <div class="canvas-white container visible-sm-block visible-xs-block text-green">
 
         <div class="col-sm-12 col-xs-12">
 
@@ -322,7 +322,7 @@ get_header(); ?>
 
           <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
             <h1 class="text-center hidden-xs">Vuyiroli helps them live out their remaining years with dignity, companionship, and happiness</h1>
-            <h2 class="text-center visible-xs">Vuyiroli helps them live out their remaining years with dignity, companionship, and happiness</h2>
+            <h2 class="text-center visible-xs-block">Vuyiroli helps them live out their remaining years with dignity, companionship, and happiness</h2>
           </div><!-- .col-lg-12 -->
 
         </div>
@@ -350,14 +350,14 @@ get_header(); ?>
             <h1>Donate</h1>
             <p>$3 a day provides one elder with shelter, food, medicine, and more.</p>
             <a class="btn btn-lg btn-outline-inverse steel-tooltip hidden-sm hidden-xs" href="https://www.worldventure.com/page.aspx?pid=984&fid=65135&fdesc=Vuyiroli%20Home%20for%20the%20Elderly%20Destitute-6473913" data-toggle="tooltip" data-placement="bottom" title="Donations are processed by WorldVenture" target="_blank">Donate now</a> <a class="btn btn-lg btn-outline-inverse steel-tooltip hidden-sm hidden-xs" href="https://www.worldventure.com/page.aspx?pid=982&fid=65135&fdesc=Vuyiroli%20Home%20for%20the%20Elderly%20Destitute-6473913" data-toggle="tooltip" data-placement="bottom" title="Donations are processed by WorldVenture" target="_blank">Make a commitment</a>
-            <a class="btn btn-lg btn-block btn-outline-inverse visible-xs" href="https://www.worldventure.com/page.aspx?pid=984&fid=65135&fdesc=Vuyiroli%20Home%20for%20the%20Elderly%20Destitute-6473913" target="_blank">Donate now</a>
-            <div class="clearfix visible-xs" style="margin-bottom:1em;"></div>
-            <a class="btn btn-lg btn-block btn-outline-inverse visible-xs" href="https://www.worldventure.com/page.aspx?pid=982&fid=65135&fdesc=Vuyiroli%20Home%20for%20the%20Elderly%20Destitute-6473913" target="_blank">Make a commitment</a>
-            <div class="clearfix visible-xs" style="margin-bottom:1em;"></div>
-            <p class="visible-xs" style="font-size:0.5em">Donations are handled by WorldVenture</p>
+            <a class="btn btn-lg btn-block btn-outline-inverse visible-xs-block" href="https://www.worldventure.com/page.aspx?pid=984&fid=65135&fdesc=Vuyiroli%20Home%20for%20the%20Elderly%20Destitute-6473913" target="_blank">Donate now</a>
+            <div class="clearfix visible-xs-block" style="margin-bottom:1em;"></div>
+            <a class="btn btn-lg btn-block btn-outline-inverse visible-xs-block" href="https://www.worldventure.com/page.aspx?pid=982&fid=65135&fdesc=Vuyiroli%20Home%20for%20the%20Elderly%20Destitute-6473913" target="_blank">Make a commitment</a>
+            <div class="clearfix visible-xs-block" style="margin-bottom:1em;"></div>
+            <p class="visible-xs-block" style="font-size:0.5em">Donations are handled by WorldVenture</p>
           </div><!-- .col-lg-4 -->
 
-          <div class="spacer visible-xs"></div>
+          <div class="spacer visible-xs-block"></div>
 
           <div class="col-lg-4 col-md-4 col-xs-12 txt-center">
             <i class="fa fa-refresh fa-7x"></i>
@@ -366,7 +366,7 @@ get_header(); ?>
             <a class="btn btn-lg btn-outline-inverse">Subscribe to newsletter</a>
           </div><!-- .col-lg-4 -->
 
-          <div class="spacer visible-xs"></div>
+          <div class="spacer visible-xs-block"></div>
 
           <div class="col-lg-4 col-md-4 col-xs-12 txt-center">
             <i class="fa fa-share fa-7x"></i>
@@ -379,7 +379,7 @@ get_header(); ?>
 
         </div><!-- .row -->
 
-        <div class="row visible-sm">
+        <div class="row visible-sm-block">
 
           <div class="col-sm-4">
             <i class="fa fa-money fa-7x"></i>

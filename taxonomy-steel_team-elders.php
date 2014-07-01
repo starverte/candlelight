@@ -31,9 +31,9 @@ get_header(); ?>
 
         <?php get_template_part( 'type', get_post_type() ); ?>
 
-      <?php if($i % 4 == 0) {echo '<div class="clearfix visible-lg"></div>';}
-            if($i % 3 == 0) {echo '<div class="clearfix visible-md"></div>';}
-            if($i % 2 == 0) {echo '<div class="clearfix visible-sm"></div>';}
+      <?php if($i % 4 == 0) {echo '<div class="clearfix visible-lg-block"></div>';}
+            if($i % 3 == 0) {echo '<div class="clearfix visible-md-block"></div>';}
+            if($i % 2 == 0) {echo '<div class="clearfix visible-sm-block"></div>';}
             $i++;
             endwhile; ?>
 
