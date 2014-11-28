@@ -9,6 +9,12 @@ Licensed under the GNU General Public License v3.0, http://www.gnu.org/licenses/
 ```
 
 ```
+Candlelight includes Font Awesome 4.2.0 http://fontawesome.io
+(C) 2012-2014 Dave Gandy
+Licensed under the MIT License, http://opensource.org/licenses/mit-license.html
+```
+
+```
 Candlelight Copyright 2014 Star Verte LLC (email : dev@starverte.com)
 
 This program is free software: you can redistribute it and/or modify
