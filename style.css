@@ -276,6 +276,7 @@ fieldset[disabled] .btn-outline-inverse.active {
   display: none;
 }
 
+
 /* =Front Page
 ----------------------------------------------- */
 
@@ -285,12 +286,14 @@ fieldset[disabled] .btn-outline-inverse.active {
   bottom: 0;
   left: 0;
   z-index: 1030;
-  margin-bottom: 0;
-  font-size: 2em;
-  color: rgba(60,60,60,0.6);
+  font-size: 3em;
+  color: rgba(255,255,255,0.6);
   text-align: center;
   border-width: 1px 0 0;
   border-radius: 0;
+}
+#disability-icon {
+  font-size: 10em;
 }
 .hero,
 .hero h1 {
@@ -313,17 +316,6 @@ fieldset[disabled] .btn-outline-inverse.active {
   text-align: left;
   background-image: url(img/hero-sm.png);
   background-position-x: right;
-}
-.learn-more {
-  margin-top: -2em;
-  line-height: normal;
-}
-.learn-more a {
-  color: #e2360a;
-}
-.learn-more a:hover {
-  color: #fe6d26;
-  text-decoration: none;
 }
 #problem .hero {
   height: 285px;
