@@ -23,3 +23,4 @@ function cl_profile_entry_meta_above() {
   $output .= !empty($lang) | !empty($home) | !empty($ailments) ? '</p>' : '';
   echo $output;
 }
+

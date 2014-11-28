@@ -44,3 +44,4 @@ get_header(); ?>
 
 <?php flint_get_widgets('footer'); ?>
 <?php get_footer(); ?>
+
