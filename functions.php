@@ -27,7 +27,12 @@ function cl_enqueue_scripts() {
   /**
    * Load Font Awesome
    */
-  wp_enqueue_style( 'font-awesome', get_stylesheet_directory_uri() . '/css/font-awesome.min.css', array() , '4.0.3' );
+  wp_enqueue_style( 'font-awesome', get_stylesheet_directory_uri() . '/css/font-awesome.min.css', array() , '4.2.0' );
+
+  /**
+   * Load arrow.js for front page
+   */
+  wp_enqueue_script( 'cl-js', get_stylesheet_directory_uri() . '/js/functions.js', array('jquery'), '0.1.0', true );
 
 }
 add_action( 'wp_enqueue_scripts', 'cl_enqueue_scripts', 20 );
