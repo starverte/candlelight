@@ -4,8 +4,8 @@
  *
  * Displays all of the <head> section and everything up till <header>
  *
- * @package Flint
- * @since 1.1.1
+ * @package Flint/Candlelight
+ * @since 0.1.0
  */
 ?>
 <!DOCTYPE html>

@@ -3,7 +3,7 @@
  * The template for displaying the elders page
  *
  * @package Flint/Candlelight
- * @since 0.0.0
+ * @since 0.1.0
  */
 
 get_header(); ?>

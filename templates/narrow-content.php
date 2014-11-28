@@ -3,7 +3,7 @@
  * Displays content for the "Narrow" template.
  *
  * @package Flint/Candlelight
- * @since 0.0.0
+ * @since 0.1.0
  */
 
 $type = get_post_type(); ?>

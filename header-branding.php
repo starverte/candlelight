@@ -5,7 +5,7 @@
  * Displays the page title
  *
  * @package Flint/Candlelight
- * @since 0.0.0
+ * @since 0.1.0
  */
 ?>
 

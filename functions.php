@@ -3,6 +3,7 @@
  * Candlelight functions and definitions
  *
  * @package Flint/Candlelight
+ * @since 0.1.0
  */
 
 /**

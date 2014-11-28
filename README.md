@@ -1,9 +1,9 @@
-Candlelight 0.0.0
+Candlelight 0.1.0
 =====
 Child theme of Flint. Theme with scrolling first page and fixed navigation bar.
 
 ```
-Candlelight is a child theme of Flint http://sparks.starverte.com/flint
+Candlelight is a child theme of Flint 1.1.0 http://sparks.starverte.com/flint
 (C) 2013-2014 Star Verte LLC
 Licensed under the GNU General Public License v3.0, http://www.gnu.org/licenses/gpl.html
 ```

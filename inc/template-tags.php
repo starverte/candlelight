@@ -3,7 +3,7 @@
  * Custom template tags for this theme.
  *
  * @package Flint/Candlelight
- * @since 0.0.0
+ * @since 0.1.0
  */
 
 remove_action('flint_entry_meta_above_steel_profile','steel_profile_entry_meta_above',10);
