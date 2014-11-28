@@ -34,7 +34,7 @@ get_header(); ?>
 
     </div><!-- #intro .hero -->
 
-    <div class="canvas-white container visible-sm-block visible-xs-block">
+    <div class="canvas-white container visible-xs-block visible-sm-block">
 
         <div class="col-sm-12 col-xs-12">
           <p>Vuyiroli is a non-profit<wbr>
@@ -75,7 +75,7 @@ get_header(); ?>
 
     </div><!-- .hero -->
 
-    <div class="canvas-white container visible-sm-block visible-xs-block text-red">
+    <div class="canvas-white container visible-xs-block visible-sm-block text-red">
 
         <div class="col-sm-12 col-xs-12">
 
@@ -253,7 +253,7 @@ get_header(); ?>
 
     </div><!-- .hero -->
 
-    <div class="canvas-white container visible-sm-block visible-xs-block text-green">
+    <div class="canvas-white container visible-xs-block visible-sm-block text-green">
 
         <div class="col-sm-12 col-xs-12">
 
@@ -306,12 +306,12 @@ get_header(); ?>
 
           <div class="col-lg-3 col-md-6 col-sm-6 col-xs-12 txt-center">
             <i class="fa fa-medkit fa-7x"></i>
-            <h2>medicine</h2>
+            <h2>medical care</h2>
           </div><!-- .col-lg-3 -->
 
           <div class="col-lg-3 col-md-6 col-sm-6 col-xs-12 txt-center">
-            <i class="fa fa-eye fa-7x"></i>
-            <h2>eye exams and glasses</h2>
+            <i class="fa fa-users fa-7x"></i>
+            <h2>community activities</h2>
           </div><!-- .col-lg-3 -->
 
         </div><!-- .row -->

@@ -30,9 +30,15 @@ Template: flint
 /* =Global
 ----------------------------------------------- */
 
+body {
+  font-weight: 400!important;
+}
 body.home {
   padding-top: 50px;
   padding-bottom: 70px;
+}
+article {
+  margin-bottom: 0;
 }
 .fa-7x {
   font-size: 7em;
@@ -258,12 +264,12 @@ fieldset[disabled] .btn-outline-inverse.active {
 }
 .tax-steel_team.term-elders #content:nth-child(4n):after {
   display: table;
-  clear:both;
+  clear: both;
   content: " ";
 }
 .tax-steel_team.term-elders #content:nth-child(4n+1):before {
   display: table;
-  clear:both;
+  clear: both;
   content: " ";
 }
 .blog .entry-meta {
@@ -274,6 +280,7 @@ fieldset[disabled] .btn-outline-inverse.active {
 ----------------------------------------------- */
 
 .arrdown {
+  position: fixed;
   right: 0;
   bottom: 0;
   left: 0;
@@ -281,11 +288,9 @@ fieldset[disabled] .btn-outline-inverse.active {
   margin-bottom: 0;
   font-size: 2em;
   color: rgba(60,60,60,0.6);
-
   text-align: center;
   border-width: 1px 0 0;
-  border-radius:0
-  position: fixed;
+  border-radius: 0;
 }
 .hero,
 .hero h1 {

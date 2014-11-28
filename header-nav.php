@@ -36,8 +36,8 @@
         ?>
         <div class="navbar-right">
           <a class="btn btn-red navbar-btn hidden-sm hidden-xs" href="https://www.worldventure.com/page.aspx?pid=984&fid=65135&fdesc=Vuyiroli%20Home%20for%20the%20Elderly%20Destitute-6473913" data-toggle="tooltip" data-placement="bottom" title="Donations are handled by WorldVenture" target="_blank">Donate</a>
-          <a class="btn btn-red btn-block navbar-btn visible-sm-block visible-xs-block" href="https://www.worldventure.com/page.aspx?pid=984&fid=65135&fdesc=Vuyiroli%20Home%20for%20the%20Elderly%20Destitute-6473913" target="_blank">Donate</a>
-          <p class="text-muted visible-sm-block visible-xs-block" style="text-align:center;font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; text-transform:none;">Donations are processed by WorldVenture</p>
+          <a class="btn btn-red btn-block navbar-btn visible-xs-block visible-sm-block" href="https://www.worldventure.com/page.aspx?pid=984&fid=65135&fdesc=Vuyiroli%20Home%20for%20the%20Elderly%20Destitute-6473913" target="_blank">Donate</a>
+          <p class="text-muted visible-xs-block visible-sm-block" style="text-align:center;font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; text-transform:none;">Donations are processed by WorldVenture</p>
         </div>
       </div><!-- .navbar-collapse -->
     </div><!-- .container -->
@@ -50,3 +50,4 @@
     </div><!-- .container -->
   </nav><!-- .navbar -->
 <?php } ?>
+

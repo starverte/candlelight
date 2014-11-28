@@ -12,7 +12,7 @@ get_header(); ?>
 
       <div class="container">
 
-        <h1><?php printf( __( '%s', 'flint' ), '<span>' . 'Who We Serve' . '</span>' ); ?></h1>
+        <h1><?php printf( __( '%s', 'flint' ), '<span>' . 'Whom We Serve' . '</span>' ); ?></h1>
 
       </div><!-- .container -->
 
@@ -52,3 +52,4 @@ get_header(); ?>
 
 <?php flint_get_widgets('footer'); ?>
 <?php get_footer(); ?>
+
