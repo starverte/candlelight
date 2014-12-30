@@ -16,10 +16,11 @@
 jQuery(window).ready( function(){
 
   var win_height = jQuery(window).height();
-  var win_width = jQuery(window).width()
+  var win_width = jQuery(window).width();
+  var win_ratio = win_width / win_height;
   var hero_height = win_height - 50;
 
-  if (win_width > 991)
+  if (win_width > 991 && win_ratio > 1.61803)
     jQuery('.hero').height(hero_height);
 
 });
