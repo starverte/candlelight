@@ -31,10 +31,11 @@ Template: flint
 ----------------------------------------------- */
 
 body {
+  padding-top: 75px;
   font-weight: 400!important;
 }
 body.home {
-  padding-top: 50px;
+  padding-top: 75px;
   padding-bottom: 70px;
 }
 article {
@@ -239,7 +240,32 @@ fieldset[disabled] .btn-outline-inverse.active {
 
 /* =Header
 ----------------------------------------------- */
+.navbar-brand {
+  height: 75px;
+}
+.navbar-brand #logo {
+  max-width: 240px;
+  height: auto;
+  margin-top: -8px;
+}
+.navbar-brand:hover #logo {
+          filter: brightness(500);
 
+  -webkit-filter: brightness(500);
+}
+.navbar-cl {
+  min-height: 75px;
+}
+.navbar-cl .btn {
+  margin-top: 18px;
+  font-size: 1.2em;
+}
+.navbar-cl .navbar-nav > li > a {
+  padding-top: 25px;
+  padding-bottom: 25px;
+  font-size: 1.2em;
+  line-height: 25px;
+}
 
 /* =Content
 ----------------------------------------------- */
@@ -276,6 +302,7 @@ fieldset[disabled] .btn-outline-inverse.active {
   display: none;
 }
 
+
 /* =Front Page
 ----------------------------------------------- */
 
@@ -285,12 +312,14 @@ fieldset[disabled] .btn-outline-inverse.active {
   bottom: 0;
   left: 0;
   z-index: 1030;
-  margin-bottom: 0;
-  font-size: 2em;
-  color: rgba(60,60,60,0.6);
+  font-size: 3em;
+  color: rgba(255,255,255,0.6);
   text-align: center;
   border-width: 1px 0 0;
   border-radius: 0;
+}
+#disability-icon {
+  font-size: 10em;
 }
 .hero,
 .hero h1 {
@@ -311,28 +340,30 @@ fieldset[disabled] .btn-outline-inverse.active {
   height: 285px;
   color: #fe6d26;
   text-align: left;
-  background-image: url(img/hero-sm.png);
+  background-image: url(img/hero-sm.jpg);
+  filter: FlipH;
   background-position-x: right;
+  -webkit-transform: scaleX(-1);
+     -moz-transform: scaleX(-1);
+       -o-transform: scaleX(-1);
+          transform: scaleX(-1);
 }
-.learn-more {
-  margin-top: -2em;
-  line-height: normal;
-}
-.learn-more a {
-  color: #e2360a;
-}
-.learn-more a:hover {
-  color: #fe6d26;
-  text-decoration: none;
+#intro .hero p {
+  text-align: right;
+  filter: FlipH;
+  -webkit-transform: scaleX(-1);
+     -moz-transform: scaleX(-1);
+       -o-transform: scaleX(-1);
+          transform: scaleX(-1);
 }
 #problem .hero {
   height: 285px;
-  background-image: url(img/problem-sm.png);
+  background-image: url(img/problem-sm.jpg);
 }
 #what-we-do .hero {
   height: 435px;
   color: #fe6d26;
-  background-image: url(img/solution-xs.png);
+  background-image: url(img/solution-xs.jpg);
   background-position-x: right;
 }
 #what-we-do .hero h1 {
@@ -342,18 +373,18 @@ fieldset[disabled] .btn-outline-inverse.active {
   #intro .hero {
     height: 342px;
     font-size: 18px;
-    background-image: url(img/hero-md.png);
+    background-image: url(img/hero-md.jpg);
   }
   #problem .hero {
     height: 360px;
     font-size: 18px;
     line-height: 360px;
-    background-image: url(img/problem-md.png);
+    background-image: url(img/problem-md.jpg);
   }
   #what-we-do .hero {
     height: 342px;
     font-size: 18px;
-    background-image: url(img/solution-sm.png);
+    background-image: url(img/solution-sm.jpg);
   }
 }
 @media (min-width: 992px) {
@@ -361,19 +392,19 @@ fieldset[disabled] .btn-outline-inverse.active {
     height: 442px;
     font-size: 36px;
     line-height: 442px;
-    background-image: url(img/hero-lg.png);
+    background-image: url(img/hero-lg.jpg);
   }
   #problem .hero {
     height: 630px;
     font-size: 36px;
     line-height: 630px;
-    background-image: url(img/problem-lg.png);
+    background-image: url(img/problem-lg.jpg);
   }
   #what-we-do .hero {
     height: 442px;
     font-size: 36px;
     line-height: 442px;
-    background-image: url(img/solution-md.png);
+    background-image: url(img/solution-md.jpg);
   }
 }
 @media (min-width: 1200px) {
@@ -386,13 +417,13 @@ fieldset[disabled] .btn-outline-inverse.active {
     height: 630px;
     font-size: 48px;
     line-height: 630px;
-    background-image: url(img/problem-lg.png);
+    background-image: url(img/problem-lg.jpg);
   }
   #what-we-do .hero {
     height: 570px;
     font-size: 48px;
     line-height: 570px;
-    background-image: url(img/solution-lg.png);
+    background-image: url(img/solution-lg.jpg);
   }
 }
 
