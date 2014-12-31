@@ -340,34 +340,30 @@ fieldset[disabled] .btn-outline-inverse.active {
   height: 285px;
   color: #fe6d26;
   text-align: left;
-  background-image: url(img/hero-sm.png);
-      filter: FlipH;
+  background-image: url(img/hero-sm.jpg);
+  filter: FlipH;
   background-position-x: right;
   -webkit-transform: scaleX(-1);
      -moz-transform: scaleX(-1);
        -o-transform: scaleX(-1);
           transform: scaleX(-1);
-
-  -ms-filter: "FlipH";
 }
 #intro .hero p {
   text-align: right;
-      filter: FlipH;
+  filter: FlipH;
   -webkit-transform: scaleX(-1);
      -moz-transform: scaleX(-1);
        -o-transform: scaleX(-1);
           transform: scaleX(-1);
-
-  -ms-filter: "FlipH";
 }
 #problem .hero {
   height: 285px;
-  background-image: url(img/problem-sm.png);
+  background-image: url(img/problem-sm.jpg);
 }
 #what-we-do .hero {
   height: 435px;
   color: #fe6d26;
-  background-image: url(img/solution-xs.png);
+  background-image: url(img/solution-xs.jpg);
   background-position-x: right;
 }
 #what-we-do .hero h1 {
@@ -377,18 +373,18 @@ fieldset[disabled] .btn-outline-inverse.active {
   #intro .hero {
     height: 342px;
     font-size: 18px;
-    background-image: url(img/hero-md.png);
+    background-image: url(img/hero-md.jpg);
   }
   #problem .hero {
     height: 360px;
     font-size: 18px;
     line-height: 360px;
-    background-image: url(img/problem-md.png);
+    background-image: url(img/problem-md.jpg);
   }
   #what-we-do .hero {
     height: 342px;
     font-size: 18px;
-    background-image: url(img/solution-sm.png);
+    background-image: url(img/solution-sm.jpg);
   }
 }
 @media (min-width: 992px) {
@@ -396,19 +392,19 @@ fieldset[disabled] .btn-outline-inverse.active {
     height: 442px;
     font-size: 36px;
     line-height: 442px;
-    background-image: url(img/hero-lg.png);
+    background-image: url(img/hero-lg.jpg);
   }
   #problem .hero {
     height: 630px;
     font-size: 36px;
     line-height: 630px;
-    background-image: url(img/problem-lg.png);
+    background-image: url(img/problem-lg.jpg);
   }
   #what-we-do .hero {
     height: 442px;
     font-size: 36px;
     line-height: 442px;
-    background-image: url(img/solution-md.png);
+    background-image: url(img/solution-md.jpg);
   }
 }
 @media (min-width: 1200px) {
@@ -421,13 +417,13 @@ fieldset[disabled] .btn-outline-inverse.active {
     height: 630px;
     font-size: 48px;
     line-height: 630px;
-    background-image: url(img/problem-lg.png);
+    background-image: url(img/problem-lg.jpg);
   }
   #what-we-do .hero {
     height: 570px;
     font-size: 48px;
     line-height: 570px;
-    background-image: url(img/solution-lg.png);
+    background-image: url(img/solution-lg.jpg);
   }
 }
 
