@@ -51,4 +51,10 @@ function cl_save_teams_meta() {
   if (isset($_POST['profile_ailments'])) { update_post_meta($post->ID, "profile_ailments", $_POST["profile_ailments"]); }
 }
 
+function cl_upload_mimes($mime_types){
+    $mime_types['svg'] = 'image/svg+xml'; //Adding svg extension
+    return $mime_types;
+}
+add_filter('upload_mimes', 'cl_upload_mimes', 1, 1);
+
 ?>
