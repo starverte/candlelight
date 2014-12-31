@@ -19,8 +19,10 @@ get_header(); ?>
 
       <div class="container">
 
-        <div class="col-lg-8 col-md-9 hidden-sm hidden-xs">
-          <span class="text"><p>Vuyiroli is a non-profit<br>
+        <div class="col-lg-6 col-md-8 hidden-sm hidden-xs">
+          <span class="text">
+            <p><img id="logo" src="<?php header_image(); ?>" alt="Vuyiroli — Homes for the Elderly" /></p>
+            <p>is a non-profit<br>
             organization that serves<br>
             the abandoned elderly in need,<br>
             regardless of caste, creed,<br>
