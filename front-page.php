@@ -350,12 +350,8 @@ get_header(); ?>
             <i class="fa fa-money fa-5x"></i>
             <h1>Donate</h1>
             <p>$3 a day provides one elder with shelter, food, medicine, and more.</p>
-            <a class="btn btn-lg btn-outline-inverse steel-tooltip hidden-sm hidden-xs" href="https://www.worldventure.com/page.aspx?pid=984&fid=65135&fdesc=Vuyiroli%20Home%20for%20the%20Elderly%20Destitute-6473913" data-toggle="tooltip" data-placement="bottom" title="Donations are processed by WorldVenture" target="_blank">Donate now</a> <a class="btn btn-lg btn-outline-inverse steel-tooltip hidden-sm hidden-xs" href="https://www.worldventure.com/page.aspx?pid=982&fid=65135&fdesc=Vuyiroli%20Home%20for%20the%20Elderly%20Destitute-6473913" data-toggle="tooltip" data-placement="bottom" title="Donations are processed by WorldVenture" target="_blank">Make a commitment</a>
-            <a class="btn btn-lg btn-block btn-outline-inverse visible-xs-block" href="https://www.worldventure.com/page.aspx?pid=984&fid=65135&fdesc=Vuyiroli%20Home%20for%20the%20Elderly%20Destitute-6473913" target="_blank">Donate now</a>
-            <div class="clearfix visible-xs-block" style="margin-bottom:1em;"></div>
-            <a class="btn btn-lg btn-block btn-outline-inverse visible-xs-block" href="https://www.worldventure.com/page.aspx?pid=982&fid=65135&fdesc=Vuyiroli%20Home%20for%20the%20Elderly%20Destitute-6473913" target="_blank">Make a commitment</a>
-            <div class="clearfix visible-xs-block" style="margin-bottom:1em;"></div>
-            <p class="visible-xs-block" style="font-size:0.5em">Donations are handled by WorldVenture</p>
+            <a class="btn btn-lg btn-outline-inverse steel-tooltip hidden-sm hidden-xs" href="<?php echo esc_url( home_url() ); ?>/donate">Donate now</a>
+            <a class="btn btn-lg btn-block btn-outline-inverse visible-xs-block" href="<?php echo esc_url( home_url() ); ?>/donate">Donate now</a>
           </div><!-- .col-lg-4 -->
 
           <div class="spacer visible-xs-block"></div>
@@ -388,10 +384,8 @@ get_header(); ?>
           <div class="col-sm-8">
             <h2>Donate</h2>
             <p>$3 a day provides one elder with shelter, food, medicine, and more.</p>
-            <a class="btn btn-lg btn-outline-inverse" href="https://www.worldventure.com/page.aspx?pid=984&fid=65135&fdesc=Vuyiroli%20Home%20for%20the%20Elderly%20Destitute-6473913" target="_blank">Donate now</a>
-            <a class="btn btn-lg btn-outline-inverse" href="https://www.worldventure.com/page.aspx?pid=982&fid=65135&fdesc=Vuyiroli%20Home%20for%20the%20Elderly%20Destitute-6473913" target="_blank">Make a commitment</a>
+            <a class="btn btn-lg btn-outline-inverse" href="<?php echo esc_url( home_url() ); ?>/donate" target="_blank">Donate now</a>
             <div class="clearfix"></div>
-            <p style="font-size:0.5em;margin-top:2em;">Donations are handled by WorldVenture</p>
           </div><!-- .col-sm-8 -->
 
           <div class="spacer"></div>
