@@ -36,9 +36,9 @@ if ($donate) {
     $message .= 'Email: '      . $donor_email;
     $message .= 'Country: '    . $donor_country;
     $message .= 'Newsletter: ' . $donor_updates;
-    
+
     mail('dev@starverte.com','Vuyiroli Donation', $message);
-    
+
     header('Location: https://www.worldventure.com/sslpage.aspx?pid=984&fid=65135&fdesc=Vuyiroli+Home+for+the+Elderly+Destitute-6473913');
   }
 }
@@ -86,7 +86,7 @@ flint_get_widgets('header');
                       }
                     }
                   ?>
-                  
+
                   <div class="row">
                     <div class="col-xs-6"><?php flint_the_content(); ?></div>
                     <div class="col-xs-6">
@@ -132,10 +132,10 @@ flint_get_widgets('header');
                         <button type="submit" class="btn btn-default">Submit</button>
                       </form>
                     </div>
-                    
-                  
+
+
                   </div><!-- .row -->
-                  
+
                   <?php
                   flint_link_pages( array(
                     'before' => '<ul class="pagination">',
