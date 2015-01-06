@@ -410,7 +410,6 @@ fieldset[disabled] .btn-outline-inverse.active {
 @media (min-width: 1200px) {
   #intro .hero {
     height: 570px;
-    font-size: 48px;
     line-height: 570px;
   }
   #problem .hero {
