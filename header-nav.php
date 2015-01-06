@@ -5,7 +5,7 @@
  * Displays the navigation menu
  *
  * @package Flint/Candlelight
- * @since 0.1.0
+ * @since 0.2.0
  */
 ?>
 
@@ -21,7 +21,9 @@
           <span class="icon-bar"></span>
           <span class="icon-bar"></span>
         </button>
-        <a class="navbar-brand" href="<?php echo esc_url( home_url() ); ?>"><?php echo esc_attr( get_bloginfo( 'name', 'display' ) ); ?></a>
+        <a class="navbar-brand" href="<?php echo esc_url( home_url() ); ?>">
+          <img id="logo" src="<?php header_image(); ?>" alt="Vuyiroli — Homes for the Elderly" />
+        </a>
       </div><!-- .navbar-header -->
 
       <!-- Collect the nav links, forms, and other content for toggling -->
@@ -35,9 +37,8 @@
         }
         ?>
         <div class="navbar-right">
-          <a class="btn btn-red navbar-btn hidden-sm hidden-xs" href="https://www.worldventure.com/page.aspx?pid=984&fid=65135&fdesc=Vuyiroli%20Home%20for%20the%20Elderly%20Destitute-6473913" data-toggle="tooltip" data-placement="bottom" title="Donations are handled by WorldVenture" target="_blank">Donate</a>
-          <a class="btn btn-red btn-block navbar-btn visible-xs-block visible-sm-block" href="https://www.worldventure.com/page.aspx?pid=984&fid=65135&fdesc=Vuyiroli%20Home%20for%20the%20Elderly%20Destitute-6473913" target="_blank">Donate</a>
-          <p class="text-muted visible-xs-block visible-sm-block" style="text-align:center;font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; text-transform:none;">Donations are processed by WorldVenture</p>
+          <a class="btn btn-red navbar-btn hidden-sm hidden-xs" href="<?php echo esc_url( home_url() ); ?>/donate">Donate</a>
+          <a class="btn btn-red btn-block navbar-btn visible-xs-block visible-sm-block" href="<?php echo esc_url( home_url() ); ?>/donate">Donate</a>
         </div>
       </div><!-- .navbar-collapse -->
     </div><!-- .container -->

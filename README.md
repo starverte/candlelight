@@ -1,4 +1,4 @@
-Candlelight 0.1.0
+Candlelight 0.2.0
 =====
 Child theme of Flint. Theme with scrolling first page and fixed navigation bar.
 
