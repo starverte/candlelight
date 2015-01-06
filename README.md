@@ -15,7 +15,7 @@ Licensed under the MIT License, http://opensource.org/licenses/mit-license.html
 ```
 
 ```
-Candlelight Copyright 2014 Star Verte LLC (email : dev@starverte.com)
+Candlelight Copyright 2014-2015 Star Verte LLC (email : dev@starverte.com)
 
 This program is free software: you can redistribute it and/or modify
 it under the terms of the GNU General Public License as published by
