@@ -301,6 +301,9 @@ fieldset[disabled] .btn-outline-inverse.active {
 .blog .entry-meta {
   display: none;
 }
+.entry-content {
+  margin-top: 0;
+}
 
 
 /* =Front Page
