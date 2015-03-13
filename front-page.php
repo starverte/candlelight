@@ -421,4 +421,6 @@ get_header(); ?>
 
   </section><!-- #get-involved -->
 
+</div><!-- #page -->
+
 <?php get_footer(); ?>
