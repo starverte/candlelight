@@ -35,7 +35,7 @@ get_header(); ?>
 
     </div><!-- #intro .hero -->
 
-    <div class="canvas-white container visible-xs-block visible-sm-block">
+    <div class="fill-white container visible-xs-block visible-sm-block">
 
         <div class="col-sm-12 col-xs-12">
           <p>Vuyiroli is a non-profit<wbr>
@@ -45,9 +45,9 @@ get_header(); ?>
             religion,<wbr> or language.</p>
         </div><!-- .col-xs-12 -->
 
-    </div><!-- .canvas-white -->
+    </div><!-- .fill-white -->
 
-    <div class="canvas-white hidden-sm hidden-xs"></div>
+    <div class="fill-white hidden-sm hidden-xs"></div>
 
   </section><!-- #intro -->
 
@@ -76,7 +76,7 @@ get_header(); ?>
 
     </div><!-- .hero -->
 
-    <div class="canvas-white container visible-xs-block visible-sm-block text-red">
+    <div class="fill-white container visible-xs-block visible-sm-block text-red">
 
         <div class="col-sm-12 col-xs-12">
 
@@ -90,9 +90,9 @@ get_header(); ?>
 
         </div><!-- .col-xs-12 -->
 
-    </div><!-- .canvas-white -->
+    </div><!-- .fill-white -->
 
-    <div class="canvas-white text-red hidden-sm hidden-xs">
+    <div class="fill-white text-red hidden-sm hidden-xs">
 
       <div class="container">
 
@@ -102,9 +102,9 @@ get_header(); ?>
 
       </div><!-- .container -->
 
-    </div><!-- .canvas-white -->
+    </div><!-- .fill-white -->
 
-    <div class="canvas-red infograph">
+    <div class="fill-red infograph">
 
       <div class="container">
 
@@ -220,15 +220,15 @@ get_header(); ?>
 
       </div><!-- .container -->
 
-    </div><!-- .canvas-red -->
+    </div><!-- .fill-red -->
 
-    <div class="canvas-white text-red">
+    <div class="fill-white text-red">
       <div class="container">
         <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
           <p>so families abandon them</p>
         </div><!-- .col-lg-12 -->
       </div><!-- .container -->
-    </div><!-- .canvas-white -->
+    </div><!-- .fill-white -->
 
   </section><!-- #problem -->
 
@@ -254,7 +254,7 @@ get_header(); ?>
 
     </div><!-- .hero -->
 
-    <div class="canvas-white container visible-xs-block visible-sm-block text-green">
+    <div class="fill-white container visible-xs-block visible-sm-block text-green">
 
         <div class="col-sm-12 col-xs-12">
 
@@ -266,9 +266,9 @@ get_header(); ?>
 
         </div><!-- .col-xs-12 -->
 
-    </div><!-- .canvas-white -->
+    </div><!-- .fill-white -->
 
-    <div class="canvas-white text-green hidden-sm hidden-xs">
+    <div class="fill-white text-green hidden-sm hidden-xs">
 
       <div class="container">
 
@@ -278,9 +278,9 @@ get_header(); ?>
 
       </div><!-- .container -->
 
-    </div><!-- .canvas-white -->
+    </div><!-- .fill-white -->
 
-    <div class="canvas-green infograph">
+    <div class="fill-green infograph">
       <div class="container">
 
         <div class="row">
@@ -331,15 +331,15 @@ get_header(); ?>
         <div class="spacer"></div>
 
       </div><!-- .container -->
-    </div><!-- .canvas-green -->
+    </div><!-- .fill-green -->
 
-    <div class="canvas-white"></div>
+    <div class="fill-white"></div>
 
   </section><!-- #what-we-do -->
 
   <section id="get-involved">
 
-    <div class="canvas-orange infograph">
+    <div class="fill-orange infograph">
       <div class="container">
 
         <div class="spacer"></div>
@@ -417,7 +417,7 @@ get_header(); ?>
 
       </div><!-- .container -->
 
-    </div><!-- .canvas-orange -->
+    </div><!-- .fill-orange -->
 
   </section><!-- #get-involved -->
 
