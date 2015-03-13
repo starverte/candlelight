@@ -126,7 +126,7 @@ flint_get_widgets('header');
                         </div>
                         <div class="checkbox">
                           <label>
-                            <input class="form-control" type="checkbox" id="donor_updates" name="donor_updates" value="true" checked> Sign me up to receive updates
+                            <input type="checkbox" id="donor_updates" name="donor_updates" value="true" checked> Sign me up to receive updates
                           </label>
                         </div>
                         <input type="hidden" name="submitted" value="<?php echo substr( md5(rand()), 0, 7); ?>">
