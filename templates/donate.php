@@ -89,8 +89,8 @@ flint_get_widgets('header');
                   ?>
 
                   <div class="row">
-                    <div class="col-xs-6"><?php flint_the_content(); ?></div>
-                    <div class="col-xs-6">
+                    <!-- <div class="col-xs-6"><?php flint_the_content(); ?></div> -->
+                    <!-- <div class="col-xs-6"> --> <div class="col-xs-12">
                       <h2>Online Donations</h2>
                       <p><!--If you are within India or the United Kingdom, online donations are processed by PayPal.--> All <!--other --> online donations are processed by WorldVenture.</p>
                       <form action="<?php echo get_permalink(); ?>" method="post">
@@ -126,7 +126,7 @@ flint_get_widgets('header');
                         </div>
                         <div class="checkbox">
                           <label>
-                            <input type="checkbox" id="donor_updates" name="donor_updates" value="true" checked> Sign me up to receive updates
+                            <input class="form-control" type="checkbox" id="donor_updates" name="donor_updates" value="true" checked> Sign me up to receive updates
                           </label>
                         </div>
                         <input type="hidden" name="submitted" value="<?php echo substr( md5(rand()), 0, 7); ?>">
