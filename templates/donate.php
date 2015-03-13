@@ -89,7 +89,7 @@ flint_get_widgets('header');
                   ?>
 
                   <div class="row">
-                    <!-- <div class="col-xs-6"><?php flint_the_content(); ?></div> -->
+                    <div class="col-xs-6"><?php flint_the_content(); ?></div>
                     <div class="col-xs-6">
                       <h2>Online Donations</h2>
                       <p><!--If you are within India or the United Kingdom, online donations are processed by PayPal.--> All <!--other --> online donations are processed by WorldVenture.</p>
