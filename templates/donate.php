@@ -161,5 +161,7 @@ flint_get_widgets('header');
 
   </div><!-- #primary -->
 
+</div><!-- #page -->
+
 <?php flint_get_widgets('footer'); ?>
 <?php get_footer(); ?>
