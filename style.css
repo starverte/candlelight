@@ -3,7 +3,7 @@ Theme Name: Candlelight
 Theme URI: https://github.com/starverte/candlelight.git
 Author: Star Verte LLC
 Description: Child theme of Flint. Child theme of Flint. Theme with scrolling first page and fixed navigation bar.
-Version: 0.2.0e
+Version: 0.2.0f
 License: GPLv3
 License URI: LICENSE.md
 Tags:
@@ -37,6 +37,10 @@ body {
 body.home {
   padding-top: 75px;
   padding-bottom: 70px;
+}
+#page {
+  padding: 0 0 308px;
+  margin: 0 auto -308px;
 }
 article {
   margin-bottom: 0;
