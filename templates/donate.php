@@ -39,7 +39,8 @@ if ($donate) {
 
     mail('dev@starverte.com','Vuyiroli Donation', $message);
 
-    header('Location: https://www.worldventure.com/sslpage.aspx?pid=984&fid=65135&fdesc=Vuyiroli+Home+for+the+Elderly+Destitute-6473913');
+    header('Location: https://www.worldventure.com/give/donate.php?REFundID=6473913');
+    exit;
   }
 }
 
@@ -159,6 +160,8 @@ flint_get_widgets('header');
     </div><!-- .row -->
 
   </div><!-- #primary -->
+
+</div><!-- #page -->
 
 <?php flint_get_widgets('footer'); ?>
 <?php get_footer(); ?>

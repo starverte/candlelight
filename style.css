@@ -3,7 +3,7 @@ Theme Name: Candlelight
 Theme URI: https://github.com/starverte/candlelight.git
 Author: Star Verte LLC
 Description: Child theme of Flint. Child theme of Flint. Theme with scrolling first page and fixed navigation bar.
-Version: 0.2.0
+Version: 0.2.0g
 License: GPLv3
 License URI: LICENSE.md
 Tags:
@@ -38,6 +38,10 @@ body.home {
   padding-top: 75px;
   padding-bottom: 70px;
 }
+#page {
+  padding: 0 0 320px;
+  margin: 0 auto -320px;
+}
 article {
   margin-bottom: 0;
 }
@@ -57,6 +61,10 @@ article {
   line-height: 1.5em;
 }
 .infograph .spacer {
+  min-height: 25px;
+  clear: both;
+}
+.home .infograph .spacer {
   min-height: 100px;
   clear: both;
 }
@@ -198,34 +206,59 @@ fieldset[disabled] .btn-outline-inverse.active {
   color: #fe6d26;
   background-color: #fff;
 }
-.canvas-white,
-.canvas-orange,
-.canvas-green,
-.canvas-red,
-.canvas-white h1,
-.canvas-orange h1,
-.canvas-green h1,
-.canvas-red h1 {
+.fill-white,
+.fill-orange,
+.fill-green,
+.fill-red,
+.fill-white h1,
+.fill-orange h1,
+.fill-green h1,
+.fill-red h1 {
   font-family: "Nova Square";
+}
+.home .fill-white,
+.home .fill-orange,
+.home .fill-green,
+.home .fill-red,
+.home .fill-white h1,
+.home .fill-orange h1,
+.home .fill-green h1,
+.home .fill-red h1 {
   font-size: 2em;
 }
-.canvas-white {
+.fill-white {
   padding: 1em 0;
   color: #fe6d26;
   text-align: center;
   background: #fff;
 }
-.canvas-orange {
+.fill-orange {
+  color: #fff;
+  background: #fe6d26;
+}
+.home .fill-orange {
   padding: 1em 0;
   color: #fff;
   background: #fe6d26;
 }
-.canvas-green {
+.fill-orange .btn-lg {
+  padding: 6px 12px;
+  font-size: 14px;
+  line-height: 1.42857143;
+  border-radius: 4px;
+}
+.home .fill-orange .btn-lg {
+  padding: 10px 16px;
+  font-size: 18px;
+  line-height: 1.33;
+  border-radius: 6px;
+}
+.fill-green {
   padding: 1em 0;
   color: #fff;
   background: #07aa35;
 }
-.canvas-red {
+.fill-red {
   padding: 1em 0;
   color: #fff;
   background: #e2360a;
