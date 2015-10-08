@@ -30,10 +30,18 @@
       <div class="collapse navbar-collapse navbar-primary">
         <?php
         if (is_front_page()) {
-          wp_nav_menu( array( 'theme_location' => 'front-page', 'container' => false, 'menu_class' => 'nav navbar-nav', 'fallback_cb' => false, 'walker' => new Flint_Bootstrap_Menu ) );
+          if ( class_exists( 'Flint_Walker_Nav_Menu_Navbar' ) ) {
+            wp_nav_menu( array( 'theme_location' => 'front-page', 'container' => false, 'menu_class' => 'nav navbar-nav', 'fallback_cb' => false, 'walker' => new Flint_Walker_Nav_Menu_Navbar ) );
+          } else {
+            wp_nav_menu( array( 'theme_location' => 'front-page', 'container' => false, 'menu_class' => 'nav navbar-nav', 'fallback_cb' => false, 'walker' => new Flint_Bootstrap_Menu ) );
+          }
         }
         else {
-          wp_nav_menu( array( 'theme_location' => 'primary', 'container' => false, 'menu_class' => 'nav navbar-nav', 'fallback_cb' => false, 'walker' => new Flint_Bootstrap_Menu ) );
+          if ( class_exists( 'Flint_Walker_Nav_Menu_Navbar' ) ) {
+            wp_nav_menu( array( 'theme_location' => 'primary', 'container' => false, 'menu_class' => 'nav navbar-nav', 'fallback_cb' => false, 'walker' => new Flint_Walker_Nav_Menu_Navbar ) );
+          } else {
+            wp_nav_menu( array( 'theme_location' => 'primary', 'container' => false, 'menu_class' => 'nav navbar-nav', 'fallback_cb' => false, 'walker' => new Flint_Bootstrap_Menu ) );
+          }
         }
         ?>
         <div class="navbar-right">
