@@ -30,23 +30,15 @@
       <div class="collapse navbar-collapse navbar-primary">
         <?php
         if (is_front_page()) {
-          if ( class_exists( 'Flint_Walker_Nav_Menu_Navbar' ) ) {
-            wp_nav_menu( array( 'theme_location' => 'front-page', 'container' => false, 'menu_class' => 'nav navbar-nav', 'fallback_cb' => false, 'walker' => new Flint_Walker_Nav_Menu_Navbar ) );
-          } else {
-            wp_nav_menu( array( 'theme_location' => 'front-page', 'container' => false, 'menu_class' => 'nav navbar-nav', 'fallback_cb' => false, 'walker' => new Flint_Bootstrap_Menu ) );
-          }
+          wp_nav_menu( array( 'theme_location' => 'front-page', 'container' => false, 'menu_class' => 'nav navbar-nav', 'fallback_cb' => false, 'walker' => new Flint_Walker_Nav_Menu_Navbar ) );
         }
         else {
-          if ( class_exists( 'Flint_Walker_Nav_Menu_Navbar' ) ) {
-            wp_nav_menu( array( 'theme_location' => 'primary', 'container' => false, 'menu_class' => 'nav navbar-nav', 'fallback_cb' => false, 'walker' => new Flint_Walker_Nav_Menu_Navbar ) );
-          } else {
-            wp_nav_menu( array( 'theme_location' => 'primary', 'container' => false, 'menu_class' => 'nav navbar-nav', 'fallback_cb' => false, 'walker' => new Flint_Bootstrap_Menu ) );
-          }
+          wp_nav_menu( array( 'theme_location' => 'primary', 'container' => false, 'menu_class' => 'nav navbar-nav', 'fallback_cb' => false, 'walker' => new Flint_Walker_Nav_Menu_Navbar ) );
         }
         ?>
         <div class="navbar-right">
-          <a class="btn btn-red navbar-btn hidden-sm hidden-xs" href="<?php echo esc_url( home_url() ); ?>/donate">Donate</a>
-          <a class="btn btn-red btn-block navbar-btn visible-xs-block visible-sm-block" href="<?php echo esc_url( home_url() ); ?>/donate">Donate</a>
+          <a class="btn btn-red navbar-btn hidden-sm hidden-xs" href="https://www.worldventure.com/give/donate.php?REFundID=6470949" target="_blank">Donate</a>
+          <a class="btn btn-red btn-block navbar-btn visible-xs-block visible-sm-block" href="https://www.worldventure.com/give/donate.php?REFundID=6470949" target="_blank">Donate</a>
         </div>
       </div><!-- .navbar-collapse -->
     </div><!-- .container -->
@@ -59,4 +51,3 @@
     </div><!-- .container -->
   </nav><!-- .navbar -->
 <?php } ?>
-
