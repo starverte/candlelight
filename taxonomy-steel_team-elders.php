@@ -52,6 +52,6 @@ get_header(); ?>
 
 </div><!-- #page -->
 
-<?php flint_get_widgets('footer'); ?>
+<?php flint_get_sidebar( 'footer' ); ?>
 <?php get_footer(); ?>
 
